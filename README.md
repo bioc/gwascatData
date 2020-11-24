@@ -1,0 +1,2 @@
+# gwascatData
+for annotation hub
