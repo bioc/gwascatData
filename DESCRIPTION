@@ -1,5 +1,5 @@
 Package: gwascatData
-Title: What the Package Does (One Line, Title Case)
+Title: A text file in cloud with Nov 1 2020 snapshot of EBI/EMBL GWAS catalog
 Version: 0.0.0.9000
 Authors@R:
     person(given = "Sara",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "Sara.Stankiewicz@channing.harvard.edu",
            comment = c(ORCID = "0000-0002-8967-0224"))
-Description: What the package does (one paragraph).
+Description: A text file in cloud with Nov 1 2020 snapshot of EBI/EMBL GWAS catalog
 License: `use_mit_license()`, `use_gpl3_license()` or friends to
     pick a license
 Encoding: UTF-8
