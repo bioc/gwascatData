@@ -1,13 +1,5 @@
-library(AnnotationHubData)
-
-#AnnotationHubData::makeAnnotationHubMetadata(
- # "/Users/sarastankiewicz/workDir/gwascatData", fileName = "gwascatDataMetadata.csv" )
-
-
 
 #its the tags that are causing there to be two lines need to make the tags be in one column.
-tags = c("GWAS", "GWAS catalog")
-
 metadata <- data.frame(
   Title = "gwascatData",
   Description = "text file in cloud with Nov 1 2020 snapshot of EBI/EMBL GWAS catalog",
@@ -16,7 +8,7 @@ metadata <- data.frame(
   SourceType = "TSV",
   SourceUrl = "http://www.ebi.ac.uk/gwas/api/search/downloads/alternative",
   SourceVersion = "11.1.2020",
-  Species = "Homo_Sapiens",
+  Species = "Homo sapiens",
   TaxonomyId = 9606 ,
   Coordinate_1_based = TRUE,
   DataProvider ="EBI/EMBL",
@@ -29,5 +21,4 @@ metadata <- data.frame(
   Tags = "GWAS:GWAS catalog"
 )
 
-#getting the error non-numeric argument to binary operator
-write.csv(metadata, file - "metadataTest.csv", row.names = FALSE)
+write.table(metadata, file = "metadata.csv", row.names=FALSE, sep=",")

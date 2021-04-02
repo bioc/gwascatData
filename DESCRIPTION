@@ -1,6 +1,6 @@
 Package: gwascatData
 Title: A text file in cloud with Nov 1 2020 snapshot of EBI/EMBL GWAS catalog
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R:
     person(given = "Sara",
            family = "Stankiewicz",
