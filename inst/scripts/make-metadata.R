@@ -1,7 +1,4 @@
 
-
-
-#its the tags that are causing there to be two lines need to make the tags be in one column.
 metadata <- data.frame(
   Title = "gwascatData",
   Description = "text file in cloud with Nov 1 2020 snapshot of EBI/EMBL GWAS catalog",
