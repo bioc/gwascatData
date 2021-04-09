@@ -9,7 +9,7 @@ metadata <- data.frame(
   Genome = "GRCh38",
   SourceType = "TSV",
   SourceUrl = "http://www.ebi.ac.uk/gwas/api/search/downloads/alternative",
-  SourceVersion = "11.1.2020",
+  SourceVersion = "03.30.2021",
   Species = "Homo sapiens",
   TaxonomyId = 9606 ,
   Coordinate_1_based = TRUE,
@@ -17,9 +17,7 @@ metadata <- data.frame(
   Maintainer = "Sara Stankiewicz <reshs@channing.harvard.edu>",
   RDataClass = "character",
   DispatchClass = "data.frame",
-  Location_Prefix = "http://s3.amazonaws.com/",
-  RDataPath = "biocfound-gwascat/gwascat_38_2020_11_01.tsv.gz",
-  #Tags = c("GWAS", "GWAS catalog")
+  RDataPath = "gwascatData/gwascat-2021_03_30.rda",
   Tags = "GWAS:GWAS catalog"
 )
 
