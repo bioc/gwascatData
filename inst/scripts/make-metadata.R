@@ -14,7 +14,7 @@ metadata <- data.frame(
   TaxonomyId = 9606 ,
   Coordinate_1_based = TRUE,
   DataProvider ="EBI/EMBL",
-  Maintainer = "Sara Stankiewicz <reshs@channing.harvard.edu>",
+  Maintainer = "Sara Stankiewicz <Sara.Stankiewicz@channing.harvard.edu>",
   RDataClass = "character",
   DispatchClass = "data.frame",
   RDataPath = "gwascatData/gwascat-2021_03_30.rda",
