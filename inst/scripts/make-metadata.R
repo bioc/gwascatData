@@ -9,7 +9,7 @@ metadata <- data.frame(
   Genome = "GRCh38",
   SourceType = "TSV",
   SourceUrl = "http://www.ebi.ac.uk/gwas/api/search/downloads/alternative",
-  SourceVersion = "03.30.2021",
+  SourceVersion = "03_30_2021",
   Species = "Homo sapiens",
   TaxonomyId = 9606 ,
   Coordinate_1_based = TRUE,
