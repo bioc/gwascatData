@@ -1,7 +1,7 @@
 
 metadata <- data.frame(
   Title = "gwascatData",
-  Description = "text file in cloud with Nov 1 2020 snapshot of EBI/EMBL GWAS catalog",
+  Description = "text file in cloud with March 30 2021 snapshot of EBI/EMBL GWAS catalog",
   BiocVersion = "3.13",
   Genome = "GRCh38",
   SourceType = "TSV",
