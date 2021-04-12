@@ -14,7 +14,7 @@ metadata <- data.frame(
   Maintainer = "Sara Stankiewicz <Sara.Stankiewicz@channing.harvard.edu>",
   RDataClass = "character",
   DispatchClass = "data.frame",
-  RDataPath = "gwascatData/gwascat-2021_03_30.rda",
+  RDataPath = "gwascatData/gwascat-2021_03_30.Rda",
   Tags = "GWAS:GWAS catalog"
 )
 
