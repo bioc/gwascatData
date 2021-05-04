@@ -18,4 +18,4 @@ metadata <- data.frame(
   Tags = "GWAS:GWAS catalog"
 )
 
-write.table(metadata, file = "metadata.csv", row.names=FALSE, sep=",")
+write.csv(metadata, file = "metadata.csv", row.names=FALSE)
