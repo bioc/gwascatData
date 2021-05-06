@@ -1,6 +1,6 @@
 Package: gwascatData
 Title: A text file in cloud with March 30 2021 snapshot of EBI/EMBL GWAS catalog
-Version: 0.99.2
+Version: 0.99.3
 Authors@R:
     person(given = "Sara",
            family = "Stankiewicz",
@@ -10,7 +10,9 @@ Authors@R:
 Description: This package manages a text file in cloud with March 30 2021 snapshot of EBI/EMBL GWAS catalog.This simplifies access to a snapshot of EBI GWASCAT.  More current images can be obtained using the gwascat package.
 License: Artistic-2.0
 Encoding: UTF-8
+Imports: data.table
 LazyData: false
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 biocViews: AnnotationData, AnnotationHub
+BugReports: https://github.com/stankiewicz565/gwascatData/issues
