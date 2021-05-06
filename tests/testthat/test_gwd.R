@@ -6,7 +6,7 @@ ah = AnnotationHub()
 ent = query(ah, "gwascatData")
 cand = names(ent)[1]
 tab = ah[[cand]]
-expect_true(nrow(tab) == [251401])
+expect_true(nrow(tab) == 251401)
 })
 
 

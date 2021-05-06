@@ -1,6 +1,6 @@
 Package: gwascatData
 Title: A text file in cloud with March 30 2021 snapshot of EBI/EMBL GWAS catalog
-Version: 0.99.3
+Version: 0.99.4
 Authors@R:
     person(given = "Sara",
            family = "Stankiewicz",
@@ -11,6 +11,7 @@ Description: This package manages a text file in cloud with March 30 2021 snapsh
 License: Artistic-2.0
 Encoding: UTF-8
 Imports: data.table
+Suggests: testthat, AnnotationHub
 LazyData: false
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
