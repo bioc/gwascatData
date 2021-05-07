@@ -11,9 +11,10 @@ Description: This package manages a text file in cloud with March 30 2021 snapsh
 License: Artistic-2.0
 Encoding: UTF-8
 Imports: data.table
-Suggests: testthat, AnnotationHub
+Suggests: testthat, AnnotationHub, rmarkdown, knitr
 LazyData: false
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 biocViews: AnnotationData, AnnotationHub
 BugReports: https://github.com/stankiewicz565/gwascatData/issues
+VignetteBuilder: knitr
